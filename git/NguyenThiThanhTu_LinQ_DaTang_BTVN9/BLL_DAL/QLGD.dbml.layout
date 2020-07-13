@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QLGD">
+  <DataContextMoniker Name="/QLGDDataContext" />
+  <nestedChildShapes>
+    <classShape Id="800bbaf3-2ddf-4a0d-8abe-b8a1c590ed50" absoluteBounds="3.5, 1, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/QLGDDataContext/GhiDanh" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25161a74-58e8-4d9f-959f-2e0b9efa5400" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="59b243c4-e0b6-4241-b90d-ad8c877614c8" absoluteBounds="0.75, 1.625, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/QLGDDataContext/MonHoc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="79271811-b923-432d-a764-0ecce51389c1" absoluteBounds="0.765, 2.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.22199625651042); (3.5 : 2.22199625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLGDDataContext/MonHoc/MonHoc_GhiDanh" />
+      <nodes>
+        <classShapeMoniker Id="59b243c4-e0b6-4241-b90d-ad8c877614c8" />
+        <classShapeMoniker Id="800bbaf3-2ddf-4a0d-8abe-b8a1c590ed50" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

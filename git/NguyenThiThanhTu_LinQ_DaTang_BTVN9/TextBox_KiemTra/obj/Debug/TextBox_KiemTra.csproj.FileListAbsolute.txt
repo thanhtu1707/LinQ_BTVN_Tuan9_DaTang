@@ -1,0 +1,4 @@
+D:\Thầy Danh\NguyenThiThanhTu_LinQ_DaTang_BTVN9\TextBox_KiemTra\bin\Debug\TextBox_KiemTra.dll
+D:\Thầy Danh\NguyenThiThanhTu_LinQ_DaTang_BTVN9\TextBox_KiemTra\bin\Debug\TextBox_KiemTra.pdb
+D:\Thầy Danh\NguyenThiThanhTu_LinQ_DaTang_BTVN9\TextBox_KiemTra\obj\Debug\TextBox_KiemTra.dll
+D:\Thầy Danh\NguyenThiThanhTu_LinQ_DaTang_BTVN9\TextBox_KiemTra\obj\Debug\TextBox_KiemTra.pdb

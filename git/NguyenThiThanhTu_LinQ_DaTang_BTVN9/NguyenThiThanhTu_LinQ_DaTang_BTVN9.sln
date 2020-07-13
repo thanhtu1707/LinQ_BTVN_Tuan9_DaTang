@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NguyenThiThanhTu_LinQ_DaTang_BTVN9", "NguyenThiThanhTu_LinQ_DaTang_BTVN9\NguyenThiThanhTu_LinQ_DaTang_BTVN9.csproj", "{0D65CEE9-1738-4977-8EB6-FD0814D44871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBox_KiemTra", "TextBox_KiemTra\TextBox_KiemTra.csproj", "{578C2375-F5C7-4FA6-96F0-CB198A930AFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL_DAL", "BLL_DAL\BLL_DAL.csproj", "{99921217-8D59-419D-8E51-3D435839D931}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D65CEE9-1738-4977-8EB6-FD0814D44871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D65CEE9-1738-4977-8EB6-FD0814D44871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D65CEE9-1738-4977-8EB6-FD0814D44871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D65CEE9-1738-4977-8EB6-FD0814D44871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578C2375-F5C7-4FA6-96F0-CB198A930AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578C2375-F5C7-4FA6-96F0-CB198A930AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578C2375-F5C7-4FA6-96F0-CB198A930AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578C2375-F5C7-4FA6-96F0-CB198A930AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99921217-8D59-419D-8E51-3D435839D931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99921217-8D59-419D-8E51-3D435839D931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99921217-8D59-419D-8E51-3D435839D931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99921217-8D59-419D-8E51-3D435839D931}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

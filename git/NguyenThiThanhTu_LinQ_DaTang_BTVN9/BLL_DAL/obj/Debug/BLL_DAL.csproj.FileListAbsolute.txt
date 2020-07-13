@@ -1,0 +1,6 @@
+D:\Thầy Danh\NguyenThiThanhTu_LinQ_DaTang_BTVN9\BLL_DAL\bin\Debug\BLL_DAL.dll.config
+D:\Thầy Danh\NguyenThiThanhTu_LinQ_DaTang_BTVN9\BLL_DAL\bin\Debug\BLL_DAL.dll
+D:\Thầy Danh\NguyenThiThanhTu_LinQ_DaTang_BTVN9\BLL_DAL\bin\Debug\BLL_DAL.pdb
+D:\Thầy Danh\NguyenThiThanhTu_LinQ_DaTang_BTVN9\BLL_DAL\obj\Debug\BLL_DAL.dll
+D:\Thầy Danh\NguyenThiThanhTu_LinQ_DaTang_BTVN9\BLL_DAL\obj\Debug\BLL_DAL.pdb
+D:\Thầy Danh\NguyenThiThanhTu_LinQ_DaTang_BTVN9\BLL_DAL\obj\Debug\BLL_DAL.csprojResolveAssemblyReference.cache

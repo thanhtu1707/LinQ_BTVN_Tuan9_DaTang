@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DBGHIDANH" Class="QLGDDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=USER\SQLEXPRESS;Initial Catalog=DBGHIDANH;User ID=sa" SettingsObjectName="BLL_DAL.Properties.Settings" SettingsPropertyName="DBGHIDANHConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.GhiDanh" Member="GhiDanhs">
+    <Type Name="GhiDanh">
+      <Column Name="maGhiDanh" Type="System.String" DbType="NVarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="hoVaTen" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ngaySinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="gioiTinh" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="dienThoai" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="maMonHoc" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="buoiHoc" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="thiXepLoai" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="MonHoc_GhiDanh" Member="MonHoc" ThisKey="maMonHoc" OtherKey="maMonHoc" Type="MonHoc" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MonHoc" Member="MonHocs">
+    <Type Name="MonHoc">
+      <Column Name="maMonHoc" Type="System.String" DbType="NVarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tenMonHoc" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="MonHoc_GhiDanh" Member="GhiDanhs" ThisKey="maMonHoc" OtherKey="maMonHoc" Type="GhiDanh" />
+    </Type>
+  </Table>
+</Database>
